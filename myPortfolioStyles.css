@@ -1,0 +1,227 @@
+* body {
+    padding: 0%;
+    margin: 0%;
+    /* background-color: rgba(94, 51, 4, 0.927); */
+    /* background-color: #212a3e; */
+    background-color: gray;
+    /* overflow: hidden;         */
+    font-family: 'Nunito', 'Lato';
+}
+.veryTop{
+    /* background-color: #212a3e !important; */
+    background-color: #343A40 !important;
+}
+.navbar-brand{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 26px;
+    color: white !important;
+}
+
+
+.myName:hover {
+    color: rgb(159, 203, 0) !important;
+    /* text-shadow: yellow 0.2em 0.2em 0.2em;  */
+    transition: 1s;
+}
+
+.nav-link{
+    font-size: 18px;
+    padding: 0px; 
+    margin: 14px;
+    color: rgb(159, 203, 0) !important;
+    font-family: 'Nunito','Courier New';
+}
+
+
+.nav-link:hover{
+    /* border-radius: 75%;
+    background-color: yellow;
+    transition: all 250ms ease-in; */
+    color: white !important;
+}
+
+
+.jumbotron {
+    /* margin-top: 20px; */
+    background-image: url("portImages/stockImages/wall-min.jpeg");
+    background-size: cover;
+    /* height: 700px; */
+    font-size: 3rems;
+    /* opacity: 0.9; */
+    color: black;
+    /* color: rgb(159, 203, 0); */
+    text-shadow: rgb(159, 203, 0) 0.3em 0.3em 0.3em; 
+    padding-top: 22%;
+    padding-bottom: 17%;
+} 
+
+.jumbotron:hover {
+    opacity: 0.3;
+    transition: 29000ms;
+}
+
+.myText {
+    opacity: 0.9;
+    color: black;
+    text-shadow: rgb(159, 203, 0) 0.3em 0.3em 0.3em;
+}
+
+.btn {
+    text-shadow: none;
+}
+
+.colorTitle {
+    font-family: 'Lato';
+    color: #343A40;
+    font-size: 1.4rem;
+    font-weight: 100;
+    text-shadow: rgb(159, 203, 0) 0.3em 0.3em 0.3em;
+}
+.myButtonColor {
+    background-color: black;
+}
+
+#portfolio-gallery{
+    margin: 50px 0px;
+}
+.shakBut {
+    font-size: 1.1rem;
+    font-family: 'Lato', 'Courier New', Courier;
+    border: 2px solid rgb(159, 203, 0);
+    border-radius: 12%;
+}
+.shakBut:hover {
+    transform: rotate(1deg);
+    font-size: 1.2rem;
+    transition: .3s;
+    /* font-family: 'Nunito'; */
+    border: 3px solid rgb(159, 203, 0);
+    text-shadow: none;
+}
+/*  TESTING FOR IMAGES IN PORTFOLIO */
+
+
+.techLogo:hover {
+    transform: rotate(720deg);
+    opacity: 0.6;
+    transition: .4s;
+}
+
+/* PARALLAX */
+#parallax {
+    background: url(portImages/stockImages/keyboard-min.png);
+    background-attachment: fixed;   /* we tell the background image to be fixed; to stay in it's place */
+    background-image: center;
+    background-repeat: no-repeat;
+    background-size: cover; /*make sure it covers the whole section*/
+    /* min-height: 280px; */
+}
+
+
+.pageTransition {
+    /* padding: 40px 0px; */
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: 'Lato';
+    height: 250px;
+}
+
+/* #parallaxEffect {
+    height: 700px;
+    background-color: #212a3e;
+} */
+
+.aboutMePic {
+    opacity: 0.9;
+    min-height: 500px;
+    min-width: auto;
+}
+.aboutName {
+    font-family: "Lato", 'Courier New';
+    color: rgb(159, 203, 0);
+    font-size: 2rem;
+}
+
+.aboutTitle {
+    font-size: 2rem;
+    /* color: white; */
+}
+
+.aboutDetails {
+    font-weight: 100;
+    font-size: 14px;
+    /* line-height: 2.1; */
+    line-height: 1.4;
+    color: white;
+    font-family: 'Lato','Courier New';
+}
+
+.aboutDetails:hover {
+    color: rgb(159, 203, 0) !important;
+    transition: 2s;
+}
+.btn{
+    border-color: rgb(159, 203, 0);
+}
+/* PARALLAX */
+.secondPllx {
+    background: url(portImages/stockImages/typing-min.jpeg);
+    background-attachment: fixed;   /* we tell the background image to be fixed; to stay in it's place */
+    background-image: center;
+    background-repeat: no-repeat;
+    background-size: cover; /*make sure it covers the whole section*/
+    min-height: 280px;
+    opacity: 0.8;
+}
+
+.techLogo{
+    height: 50px;
+    width: auto;
+}
+
+.tcolor {
+    color: rgb(159, 203, 0);
+    font-weight: 100;
+}
+
+.thirdPllx {
+    background: url(portImages/stockImages/contact-min.jpeg);
+    background-attachment: fixed;   /* we tell the background image to be fixed; to stay in it's place */
+    background-image: center;
+    background-repeat: no-repeat;
+    background-size: cover; /*make sure it covers the whole section*/
+    max-height: 280px;
+    opacity: 0.9;
+}
+
+.foote {
+    font-family: 'Nunito';
+    color: rgb(159, 203, 0);
+    /* font-weight: 150%; */
+}
+
+.contactDetails {
+    justify-content: space-around;
+    font-family: 'Lato', 'Courier New'
+}
+
+.dividColor {
+    border: 1px solid rgb(159, 203, 0);
+}
+
+/*
+Bootstrap 4 Breakpoints:
+
+Extra Small (xs) less than 576px
+@media (min-width: 576px){...}
+
+Small       (sm) 576px and up
+@media (min-width: 576px){...}
+
+Medium      (md) 768px and up
+
+Large
+
+Extra Large (xl) 1200px and up
+*/

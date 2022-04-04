@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Welcome to Christopher's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="portImages/Styling/Screen Shot 2019-03-06 at 11.28.08 AM-min.png"> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="myPortfolioStyles.css">
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Monoton|Nunito|Lato" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar veryTop navbar-expand-md navbar-dark bg-dark">
+    <a href="" class="navbar-brand ml-1 myName">Christopher Soltis</a>
+    <!-- below activates or toggler button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
+      aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle Navigation">
+      <!-- The hamburgers button -->
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- What we want to collapse, *make sure id matches data-target* -->
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <!-- Create our tabs across the top; using ml-auto to move it to the Right -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a href="#meSection" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#progLang" class="nav-link">Languages</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#contactMeSection" class="nav-link js-scroll-trigger">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- End of Navigation -->
+
+
+  <!-- Jumbotron -->
+  <div class="container-fluid p-0">
+    <div class="jumbotron leadImage text-center jumbotron-fluid">
+      <h1>Full-Stack Developer</h1>
+      <p class="lead myText my-2">PASSIONATE | INTRIGUED | WILLING | READY</p>
+      <a href="https://www.github.com/cdsalty" class="btn btn-dark myButtonColor shakBut btn-sm mr-4 mt-3">GitHub</a>
+      <a href="https://www.linkedin.com/in/christophersoltis/" class="btn btn-primary btn-sm shakBut mr-4 mt-3">LinkedIn</a>
+      <a href="portImages/icons/ChristopherSoltis Resume.pdf" class="btn btn-info btn-sm shakBut mt-3">Resume</a>
+    </div>
+  </div>
+<!-- End of Jumbotron -->
+
+  <!-- Project Portfollio (4 wide on one row, or 2 x 2 in desktop, stack on mobile) -->
+  <section id="portfolio-gallery">
+    <div class="container">
+      <div class="row">
+        <!-- How our cards will display on different sized screens -->
+        <div class="size-display col-md-6 col-xl-3 mb-4">
+          <div class="card">
+            <img class="card-img-top iSafeImage" src="portImages/stockImages/iSaftey-min.png" alt="">
+            <div class="card-body text-center">
+              <h5 class="cart-title colorTitle">iSafety</h5>
+              <p class="card-text">A web application that displays Fulton County crime data on Google Maps, takes an address to display data in an interactive chart. A future goal is to provide users their current "safety" score.</p>
+              <div class="buttons">
+                <a href="https://github.com/cdsalty/frontEnd" class="btn btn-outline-dark btn-sm">Github Link</a>
+                <!-- <a href="https://github.com/cdsalty/frontEnd" class="btn btn-outline-dark btn-sm">Github Link</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="size-display col-md-6 col-xl-3 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="portImages/stockImages/colorGameScreenshot-min.png" alt="">
+            <div class="card-body text-center">
+              <h5 class="cart-title colorTitle">The RGB Color Game</h5>
+              <p class="card-text">A fun “match game” aimed to improve your RGB skills. The user is randomly assigned a specific RGB 
+                Color Value; The goal is to pick the correct RGB Color in the fewest number of attempts.
+              </p>
+              <div class="buttons">
+                <a href="https://github.com/cdsalty/RGB-ColorCode-Game" class="btn btn-outline-dark">Github Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="size-display col-md-6 col-xl-3 mb-4">
+            <div class="card">
+              <img class="card-img-top" src="portImages/stockImages/emOceans_screen2-min.png" alt="">
+              <div class="card-body text-center">
+                <h5 class="cart-title colorTitle">emOceans</h5>
+                <p class="card-text">A web application that takes note of your mood by using color 
+                  and language. Using color palettes and a word-finding API, we aimed to identify your mood in a more beautiful and helpful manner. 
+                </p>
+                <div class="buttons">
+                  <a href="https://github.com/cdsalty/emOceans" class="btn btn-outline-dark">Github Link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="size-display col-md-6 col-xl-3 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="portImages/stockImages/iFindItimage-min.png" alt="">
+            <div class="card-body text-center">
+              <h5 class="cart-title colorTitle">iFindIt</h5>
+              <p class="card-text">A combined platform for subscription services, iFindIt combines your subscriptions so you can search 
+                one application and find what movie or tv show is streaming on which service.
+              </p>
+              <div class="buttons">
+                <a href="https://github.com/cdsalty/iFindIt" class="btn btn-outline-dark">Github Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Portfolio -->
+
+
+  <!-- Fixed Image on Scroll; PARALLAX - Seperator -->
+  <section id="parallax">
+    <div class="container">
+      <div class="pageTransition text-center d-flex justify-content-center align-items-center red">
+        <h2>The only way to do great work is to love what you do</h2>
+        <footer class="blockquote-footer ml-2">Steve Jobs</footer>
+      </div>
+    </div>
+  </section>
+  <!-- End of Parralax -->
+ 
+ 
+
+<!-- About Me (split page,) -->
+  <section class="container-fluid aboutMeSection px-0" id="meSection">
+    <!-- Row 1 -->
+    <div class="row align-items-center my-0">
+      <div class="col-md-6 order-2 order-md-1 p-0 d-none d-md-block">
+        <img src="portImages/stockImages/aboutMeSection-min.jpg" alt="" class="aboutMePic img-fluid">
+      </div>
+      <div class="col-md-6 text-center order-1 order-md-2">
+        <div class="row justify-content-center py-1">
+          <div class="col-11 col-lg-8 my-5 my-md-1 align-items-center">
+              <h3 class="aboutName">Christopher Soltis</h3>
+              <p class="lead aboutDetails">A healthcare professional turned Full-Stack Developer, 
+              I have always been intrigued by how things work and how they can be improved. After years of coding as a hobby, 
+              I decided to bet on myself and become a Web Developer.</p>
+              <p class="lead aboutDetails">In November 2018, I joined DigitalCrafts and began the transformation from a business professional to a full 
+              stack web developer. The process was challenging and intense but so rewarding. I haven’t looked back since.</p>
+              <p class="lead aboutDetails">As a recent graduate, I’m excited about what lays ahead. I look forward to turning ideas 
+              into reality and I am fortunate to wake up and do what I love most, code. I have found I 
+              have an inclination for working with React however I don’t want to lose touch of the back-end so I am impartial to both.</p>
+              <p class="lead aboutDetails">Outside of work, you can find me spending time with my wife and daughter. We love staying busy, being 
+              outside and having fun! I find myself a truly lucky person.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+
+  <!-- Fixed Image on Scroll; PARALLAX - Seperator -->
+  <section class="parallax secondPllx">
+    <div class="container">
+      <div class="pageTransition text-center d-flex justify-content-center align-items-center">
+        <h2>Don't wish it was easier, wish you were better...</h2>
+        <footer class="blockquote-footer ml-3">Jim Rohn</footer>
+      </div>
+    </div>
+  </section>
+  <!-- End of Parralax -->
+
+<!-- Row 2 -->
+  <section class="container-fluid aboutMeSection proLangStyle" id="progLang">
+    <div class="row align-items-center">
+      <div class="col-md-6 text-center">
+        <div class="row justify-content-center cssTran">
+          <div class="col-4 my-4 my-md-0 tcolor">
+            <div class="techLogoLabelDiv">
+              <img class="techLogo mb-2 mt-2" src="portImages/icons/html.png">
+              <p class="mb-3 tcolor">HTML5</p>
+            </div>
+            <div class="techLogoLabelDiv">
+              <img class="techLogo mb-2" src="portImages/icons/css-min.png">
+              <p class="mb-3 tcolor">CSS3</p>
+            </div>
+            <div class="techLogoLabelDiv">
+              <img class="techLogo mb-2" src="portImages/icons/js-min.png">
+              <p class="mb-3">JavaScript</p>
+            </div>
+            <div class="techLogoLabelDiv">
+              <img class="techLogo mb-2" src="portImages/icons/pythonLogo-min.png">
+              <p class="mb-2">Python</p>
+            </div>
+          </div>
+          <div class="col-4 my-4 my-md-0 tcolor">
+            <div class="techLogoLabelDiv">
+              <img class="techLogo mb-2 mt-2" src="portImages/icons/jquery-min.png">
+              <p class="mb-3">jQuery</p>
+            </div>
+            <div class="techLogoLabelDiv">
+              <img class="techLogo mb-2" src="portImages/icons/bootstrap-min.png">
+              <p class="mb-3">Bootstrap</p>
+            </div>
+            <div class="techLogoLabelDiv">
+              <img class="techLogo mb-2" src="portImages/icons/aws-min.png">
+              <p class="mb-3">AWS</p>
+            </div>
+            <div class="techLogoLabelDiv">
+              <img class="techLogo mb-2" src="portImages/icons/github2-min.png">
+              <p class="mb-2">Git</p>
+            </div>
+          </div>
+          <div class="col-4 my-4 my-md-0 tcolorx">
+            <div class="techLogoLabelDiv">
+              <img class="techLogo mb-2 mt-2" src="portImages/icons/mysql-min.png">
+              <p class="mb-3 tcolor">MySQL</p>
+            </div>
+            <div class="techLogoLabelDiv">
+              <img class="techLogo mb-2" src="portImages/icons/node-min.png">
+              <p class="mb-3 tcolor">Node.js</p>
+            </div>
+            <div class="techLogoLabelDiv">
+              <img class="techLogo mb-2" src="portImages/icons/ReactLogo-min.png">
+              <p class="mb-3 tcolor">React</p>
+            </div>
+            <div class="techLogoLabelDiv">
+              <img class="techLogo mb-2" src="portImages/icons/linux-min.png">
+              <p class="mb-2 tcolor">Linux</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 d-none d-md-block p-0">
+        <img src="portImages/stockImages/languages-min.jpeg" alt="" class="aboutMePic img-fluid">
+      </div>
+    </div>
+  </section>
+  
+ <!-- Fixed Image on Scroll; PARALLAX - Seperator -->
+ <section class="parallax thirdPllx d-none d-lg-block">
+  <div class="container img-fluid">
+    <div class="pageTransition text-center d-flex justify-content-center align-items-center">
+    </div>
+  </div>
+</section>
+<!-- End of Parralax -->
+
+
+  <!-- Footer -->
+  <section class="page-section bg-dark foote" id="contactMeSection">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center my-2">
+          <h2 class="my-3">Contact Me</h2>
+          <hr class="divider mb-4 mt-2 dividColor">
+        </div>
+      </div>
+      <div class="row contactDetails">
+        <div class="col-4 text-center">
+          <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
+          <div>678-378-4828</div>
+        </div> 
+        <div class="col-4 text-center email">
+          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+          <!-- Make sure to change the email address in anchor text AND the link below! -->
+          <a class="d-block mb-4 foote" href="mailto:soltiscd@gmail.com">soltiscd@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Other -->
+
+  <!-- Script Source Files -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <!-- Script Source Files -->
+
+</body>
+
+</html>
